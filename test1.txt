@@ -1,0 +1,1 @@
+Welcome EveryoneProgram demonstrates reading and writingoperations to a file in the Go lang.
