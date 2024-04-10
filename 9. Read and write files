@@ -1,0 +1,19 @@
+// program to read and write files
+package main
+// importing packages
+import (
+    "fmt"
+    "io/ioutil"
+    "log"
+    "os"
+)
+func CreateFile() {
+    // fmt package implements formatted I/O, it has functions like Printf and Scanf
+    fmt.Printf("Writing file in Go lang/n")
+    // in case error is thrown it is received by err variable and Fatalf method of
+    // log prints error message and stops program execution
+    file, er := os.Create("test1.txt")
+    if er != nil {
+        log.Fatalf("failed creating file: %s", er)
+    }
+}
