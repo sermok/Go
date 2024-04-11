@@ -1,0 +1,1 @@
+The Go programming language is an open-source, statically compiled programming language. Rob Pike, Ken Thompson, and Robert Grieserner created it at Google. It is sometimes referred to as GoLang. The Go programming language is a general-purpose programming language designed to develop large-scale, complicated software.
