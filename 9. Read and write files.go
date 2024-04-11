@@ -22,7 +22,7 @@ func CreateFile() {
 	// been written and the main function has completed execution
 	defer file.Close()
 	// len variable cartures the length of string written to the file.
-	len, er := file.WriteString("Welcome Everyone" + "Program demonstrates reading and writing" + "operations to a file in the Go lang.")
+	len, er := file.WriteString("Welcome Everyone" + " Program demonstrates reading and writing" + " operations to a file in the Go lang.")
 	if er != nil {
 		log.Fatalf("failed writing to file: %s", er)
 	}
